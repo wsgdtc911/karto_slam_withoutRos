@@ -1,0 +1,82 @@
+Fixed vertex : 0; pose : 0 0 0
+vertex : 1; pose : 0.0999 -0.0014 -0.02
+Source : 0; Target : 1; motion : 0.0693861 -0.0980174 -0.02; Inf : 95.7924 91.6035 90.9091
+vertex : 2; pose : 0.3278 -0.0077 -0.03
+Source : 1; Target : 2; motion : 0.159909 -0.175632 -0.01; Inf : 83.6521 80.2793 95.2381
+Source : 0; Target : 2; motion : 0.225751 -0.276812 -0.03; Inf : 84.3688 79.5627 95.2381
+vertex : 3; pose : 0.5947 -0.0144 -0.02
+Source : 2; Target : 3; motion : 0.189643 -0.174664 0.01; Inf : 78.396 81.6741 95.2381
+vertex : 4; pose : 0.8542 -0.0193 -0.02
+Source : 3; Target : 4; motion : 0.183732 -0.183321 0; Inf : 79.8299 79.92 100
+vertex : 5; pose : 1.1136 -0.0239 -0.02
+Source : 4; Target : 5; motion : 0.183868 -0.183036 0; Inf : 79.7935 79.976 100
+Source : 3; Target : 5; motion : 0.3676 -0.366357 0; Inf : 79.7935 79.976 100
+vertex : 6; pose : 1.3708 -0.0282 -0.02
+Source : 5; Target : 6; motion : 0.182489 -0.181295 0; Inf : 79.9589 80.2203 100
+vertex : 7; pose : 1.6314 -0.0321 -0.01
+Source : 6; Target : 7; motion : 0.185152 -0.170168 0.01; Inf : 78.9992 82.2609 95.2381
+vertex : 8; pose : 1.8876 -0.0357 -0.01
+Source : 7; Target : 8; motion : 0.180443 -0.181911 0; Inf : 80.3444 80.0233 100
+vertex : 9; pose : 2.1405 -0.0391 -0.01
+Source : 8; Target : 9; motion : 0.178227 -0.179458 0; Inf : 80.6277 80.359 100
+vertex : 10; pose : 2.3967 -0.0426 -0.02
+Source : 9; Target : 10; motion : 0.180447 -0.195034 -0.01; Inf : 80.9137 77.7032 95.2381
+Source : 8; Target : 10; motion : 0.358674 -0.374492 -0.01; Inf : 80.9137 77.7032 95.2381
+vertex : 11; pose : 2.6561 -0.0464 -0.01
+Source : 10; Target : 11; motion : 0.184356 -0.169264 0.01; Inf : 79.1025 82.3839 95.2381
+vertex : 12; pose : 2.9155 -0.0502 -0.02
+Source : 11; Target : 12; motion : 0.182522 -0.197488 -0.01; Inf : 80.6667 77.3662 95.2381
+Source : 10; Target : 12; motion : 0.368845 -0.364918 0; Inf : 80.248 77.7849 95.2381
+vertex : 13; pose : 3.1706 -0.0538 -0.01
+Source : 12; Target : 13; motion : 0.181394 -0.166141 0.01; Inf : 79.5 82.8027 95.2381
+Source : 11; Target : 13; motion : 0.362246 -0.365435 0; Inf : 79.8758 82.4269 95.2381
+vertex : 14; pose : 3.4301 -0.0574 -0.01
+Source : 13; Target : 14; motion : 0.1828 -0.184221 0; Inf : 80.0328 79.7211 100
+vertex : 15; pose : 3.6884 -0.0604 -0.01
+Source : 14; Target : 15; motion : 0.182363 -0.182953 0; Inf : 80.0536 79.9244 100
+Source : 10; Target : 15; motion : 0.919055 -0.894562 0.01; Inf : 79.6534 80.3246 100
+vertex : 16; pose : 3.9392 -0.0633 -0.01
+Source : 15; Target : 16; motion : 0.177077 -0.177631 0; Inf : 80.7523 80.6316 100
+vertex : 17; pose : 4.1943 -0.0662 -0.01
+Source : 16; Target : 17; motion : 0.180148 -0.180641 0; Inf : 80.3414 80.2336 100
+vertex : 18; pose : 4.4429 -0.0692 -0.01
+Source : 17; Target : 18; motion : 0.175436 -0.176163 0; Inf : 80.9792 80.8213 100
+vertex : 19; pose : 4.7002 -0.0724 -0.01
+Source : 18; Target : 19; motion : 0.181509 -0.182395 0; Inf : 80.1788 79.9847 100
+vertex : 20; pose : 4.9585 -0.0759 -0.02
+Source : 19; Target : 20; motion : 0.181947 -0.196504 -0.01; Inf : 80.7215 77.5133 95.2381
+vertex : 21; pose : 5.2147 -0.0793 -0.01
+Source : 20; Target : 21; motion : 0.182326 -0.166759 0.01; Inf : 79.3589 82.7331 95.2381
+Source : 19; Target : 21; motion : 0.362596 -0.365078 0; Inf : 79.7368 82.3552 95.2381
+vertex : 22; pose : 5.4677 -0.0824 -0.01
+Source : 21; Target : 22; motion : 0.178508 -0.179314 0; Inf : 80.5723 80.3965 100
+vertex : 23; pose : 5.726 -0.0853 -0.01
+Source : 22; Target : 23; motion : 0.182433 -0.182881 0; Inf : 80.0382 79.94 100
+vertex : 24; pose : 5.9768 -0.0882 -0.01
+Source : 23; Target : 24; motion : 0.177077 -0.177631 0; Inf : 80.7523 80.6316 100
+vertex : 25; pose : 6.2297 -0.0907 -0.01
+Source : 24; Target : 25; motion : 0.178857 -0.178816 0; Inf : 80.4899 80.4989 100
+Source : 22; Target : 25; motion : 0.538367 -0.539328 0; Inf : 80.4899 80.4989 100
+vertex : 26; pose : 6.4794 -0.0933 -0.01
+Source : 25; Target : 26; motion : 0.176501 -0.176647 0; Inf : 80.8122 80.7805 100
+Source : 23; Target : 26; motion : 0.532435 -0.533094 0; Inf : 80.8122 80.7805 100
+vertex : 27; pose : 6.7302 -0.0961 -0.01
+Source : 26; Target : 27; motion : 0.177147 -0.177559 0; Inf : 80.7371 80.6472 100
+vertex : 28; pose : 6.9864 -0.0993 -0.01
+Source : 27; Target : 28; motion : 0.180724 -0.181626 0; Inf : 80.283 80.0857 100
+vertex : 29; pose : 7.2393 -0.1024 -0.01
+Source : 28; Target : 29; motion : 0.178436 -0.179244 0; Inf : 80.5818 80.4057 100
+vertex : 30; pose : 7.4933 -0.1054 -0.01
+Source : 29; Target : 30; motion : 0.179292 -0.179943 0; Inf : 80.4615 80.3195 100
+vertex : 31; pose : 7.7408 -0.1081 -0.01
+Source : 30; Target : 31; motion : 0.17486 -0.175178 0; Inf : 81.0397 80.9706 100
+vertex : 32; pose : 7.9959 -0.1109 -0.01
+Source : 31; Target : 32; motion : 0.180218 -0.18057 0; Inf : 80.3261 80.2492 100
+vertex : 33; pose : 8.2489 -0.1133 -0.01
+Source : 32; Target : 33; motion : 0.178998 -0.178814 0; Inf : 80.465 80.5051 100
+Source : 30; Target : 33; motion : 0.534076 -0.534562 0; Inf : 80.465 80.5051 100
+vertex : 34; pose : 8.4964 -0.1157 -0.01
+Source : 33; Target : 34; motion : 0.17507 -0.174964 0; Inf : 80.994 81.017 100
+Source : 32; Target : 34; motion : 0.354068 -0.353778 0; Inf : 80.994 81.017 100
+vertex : 35; pose : 8.745 -0.1182 -0.01
+Source : 34; Target : 35; motion : 0.175786 -0.175805 0; Inf : 80.9029 80.8986 100
