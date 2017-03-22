@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/usr/include/eigen3 -I/usr/include/suitesparse 
+CXX_INCLUDES = -I/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/include -isystem /usr/local/include -isystem /usr/local/include/opencv -I/usr/include/eigen3 -I/usr/include/suitesparse 
 

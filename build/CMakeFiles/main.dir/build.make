@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/holyss/susheng/KartoSLAM_V2/KartoSLAM
+CMAKE_SOURCE_DIR = /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build
+CMAKE_BINARY_DIR = /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 
 CMakeFiles/main.dir/Karto.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Karto.cpp.o: ../Karto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Karto.cpp.o"
-	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Karto.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Karto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Karto.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Karto.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Karto.cpp
 
 CMakeFiles/main.dir/Karto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Karto.cpp.i"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Karto.cpp > CMakeFiles/main.dir/Karto.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Karto.cpp > CMakeFiles/main.dir/Karto.cpp.i
 
 CMakeFiles/main.dir/Karto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Karto.cpp.s"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Karto.cpp -o CMakeFiles/main.dir/Karto.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Karto.cpp -o CMakeFiles/main.dir/Karto.cpp.s
 
 CMakeFiles/main.dir/Karto.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/main.dir/Karto.cpp.o.provides.build: CMakeFiles/main.dir/Karto.cpp.o
 
 CMakeFiles/main.dir/Mapper.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Mapper.cpp.o: ../Mapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Mapper.cpp.o"
-	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Mapper.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Mapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Mapper.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Mapper.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Mapper.cpp
 
 CMakeFiles/main.dir/Mapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Mapper.cpp.i"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Mapper.cpp > CMakeFiles/main.dir/Mapper.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Mapper.cpp > CMakeFiles/main.dir/Mapper.cpp.i
 
 CMakeFiles/main.dir/Mapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Mapper.cpp.s"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/Mapper.cpp -o CMakeFiles/main.dir/Mapper.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/Mapper.cpp -o CMakeFiles/main.dir/Mapper.cpp.s
 
 CMakeFiles/main.dir/Mapper.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/main.dir/Mapper.cpp.o.provides.build: CMakeFiles/main.dir/Mapper.cpp.
 
 CMakeFiles/main.dir/g2o_solver.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/g2o_solver.cpp.o: ../g2o_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/g2o_solver.cpp.o"
-	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/g2o_solver.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/g2o_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/g2o_solver.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/g2o_solver.cpp.o -c /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/g2o_solver.cpp
 
 CMakeFiles/main.dir/g2o_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/g2o_solver.cpp.i"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/g2o_solver.cpp > CMakeFiles/main.dir/g2o_solver.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/g2o_solver.cpp > CMakeFiles/main.dir/g2o_solver.cpp.i
 
 CMakeFiles/main.dir/g2o_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/g2o_solver.cpp.s"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/g2o_solver.cpp -o CMakeFiles/main.dir/g2o_solver.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/g2o_solver.cpp -o CMakeFiles/main.dir/g2o_solver.cpp.s
 
 CMakeFiles/main.dir/g2o_solver.cpp.o.requires:
 
@@ -213,7 +213,7 @@ main: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
 main: /usr/local/lib/libopencv_imgproc.so.3.2.0
 main: /usr/local/lib/libopencv_core.so.3.2.0
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/holyss/susheng/KartoSLAM_V2/KartoSLAM /home/holyss/susheng/KartoSLAM_V2/KartoSLAM /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build /home/holyss/susheng/KartoSLAM_V2/KartoSLAM/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build /home/holyss/susheng/KartoSLAM_V2/KartoSLAM_withoutRos/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
